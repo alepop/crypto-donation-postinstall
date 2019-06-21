@@ -1,0 +1,25 @@
+{
+  "name": "crypto-donation-postinstall",
+  "version": "1.0.0",
+  "description": "Npm postinstall message to invite people to donate to you in cryptocurrencies",
+  "main": "index.js",
+  "bin": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "donation",
+    "funding",
+    "cryptocurrency",
+    "coins",
+    "altcoins",
+    "postinstall"
+  ],
+  "author": "Aleksey Popov",
+  "bugs": {
+    "url": "https://github.com/alepop/crypto-donation-postinstall/issues"
+  },
+  "homepage": "https://github.com/alepop/crypto-donation-postinstall#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
